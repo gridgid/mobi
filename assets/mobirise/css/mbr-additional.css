@@ -6090,13 +6090,20 @@ body {
   color: #fab63c !important;
 }
 .cid-rdzy5fCYZM {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/mbr-1920x904.jpg");
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #000000;
+  background: linear-gradient(45deg, #000000, #c4bc3b);
+}
+.cid-rdzy5fCYZM .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
 }
 @media (min-width: 992px) {
   .cid-rdzy5fCYZM .mbr-figure {
     padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
   }
 }
 @media (max-width: 991px) {
@@ -6108,6 +6115,92 @@ body {
   .cid-rdzy5fCYZM .mbr-text {
     text-align: center;
   }
+}
+.cid-rh9adLHCkC {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #b1a374;
+}
+.cid-rh9adLHCkC .card-img {
+  background-color: #fff;
+}
+.cid-rh9adLHCkC .card-box {
+  padding: 2rem;
+  background-color: #e4d295;
+}
+.cid-rh9adLHCkC h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-rh9adLHCkC p {
+  text-align: left;
+}
+.cid-rh9adLHCkC .mbr-text {
+  color: #767676;
+}
+.cid-rh9adLHCkC .card-wrapper {
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-rh9adLHCkC .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+@media (min-width: 992px) {
+  .cid-rh9adLHCkC .my-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 15px;
+    -webkit-flex: 0 0 20%;
+  }
+}
+.cid-rh9adLHCkC .card-title {
+  text-align: center;
+}
+.cid-rh9asRbsHo {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #b1a374;
+}
+.cid-rh9asRbsHo .card-img {
+  background-color: #fff;
+}
+.cid-rh9asRbsHo .card-box {
+  padding: 2rem;
+  background-color: #e4d295;
+}
+.cid-rh9asRbsHo h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-rh9asRbsHo p {
+  text-align: left;
+}
+.cid-rh9asRbsHo .mbr-text {
+  color: #767676;
+}
+.cid-rh9asRbsHo .card-wrapper {
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-rh9asRbsHo .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+@media (min-width: 992px) {
+  .cid-rh9asRbsHo .my-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 15px;
+    -webkit-flex: 0 0 20%;
+  }
+}
+.cid-rh9asRbsHo .card-title {
+  text-align: center;
 }
 .cid-rfm6hxwAYp {
   padding-top: 90px;
