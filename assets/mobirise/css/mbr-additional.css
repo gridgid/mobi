@@ -1401,8 +1401,8 @@ body {
   color: #fab63c;
 }
 .cid-rflCGhpTBr {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   background-image: url("../../../assets/images/mbr-1920x1158.jpg");
 }
 .cid-rflCGhpTBr .mbr-section-title {
@@ -1415,6 +1415,9 @@ body {
   text-align: left;
   color: #e8f9c4;
 }
+.cid-rflCGhpTBr .mbr-section-title B {
+  color: #cccccc;
+}
 .cid-rfDy35Zy9B {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -1423,7 +1426,7 @@ body {
 .cid-rfDy35Zy9B .mbr-section-title {
   margin: 0;
   padding: 15px 0;
-  color: #ffffff;
+  color: #80ce75;
 }
 .cid-rb7hwz15dZ {
   padding-top: 120px;
