@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Bomart",
-    "currentPage": "index.html",
+    "currentPage": "page19.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -28,19 +28,19 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
+        "#fab63c",
         "#000000",
         "#be9c4a",
         "#f4c269",
         "#604007",
         "#f1da8d",
-        "#d4a655",
-        "#2c1d02"
+        "#d4a655"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.8",
     "siteFonts": [],
-    "uniqCompNum": 243,
+    "uniqCompNum": 244,
     "versionPublish": "4.9.1",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -70,21 +70,21 @@
               "background-color": "@bg-value"
             },
             ".mbr-text, .mbr-section-btn": {
-              "text-align": "left",
+              "text-align": "center",
               "color": "#073b4c"
             },
             "SPAN": {
               "color": "#2c1d02"
             },
             ".mbr-text, .mbr-section-btn B": {
-              "color": "#2c1d02"
+              "color": "#604007"
             },
             "H1": {
-              "color": "#2c1d02"
+              "color": "#604007"
             }
           },
           "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Toon pijl\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1080.jpg\" selected parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#fab63c\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Your first year in crypto space.</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Interessante website voor Crypto Starters\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>Deze website geeft een leidraad voor de beginnende Crypto bezitter, handelaar, hodler \n<br>Mijn eerste jaar was vooral zoeken, de weg kwijt raken en fouten maken. \n<br>Hier vind je de te ondernemen stappen die nodig zijn om in de crypto wereld actief te kunnen zijn, of dit nu gaat om handelen, speculeren, investeren of gewoon kunnen betalen met crypto geld. \n<br>\n<br><i>Er wordt op deze site geen inhoudelijke informatie verstrekt en geen advies gegeven (wij zijn geen financieel adviseurs) we verwijzen per stap naar bronnen die je snel op weg kunnen helpen. \n<br></i>\n<br>Met onderstaande * stappen ben je in korte tijd up en running en weet je waar je terecht kunt voor het leerproces wat nodig is om succesvol in de Crypto space actief te kunnen zijn. \n<br>\n<br>Alle links zijn met toestemming geplaats.</b></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"page20.html\" data-app-placeholder=\"Type Text\">Voor dat je<br>begint<br></a> <a class=\"btn btn-md btn-secondary\" href=\"page20.html\" data-app-placeholder=\"Type Text\">Stap 1<br></a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Toon pijl\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1080.jpg\" selected parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#d4a655\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Your first year in crypto space.<br></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Interessante website voor Crypto Starters\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b><br></b><b>Deze website geeft een leidraad voor de beginnende Crypto bezitter, handelaar, hodler \n<br>Mijn eerste jaar was vooral zoeken, de weg kwijt raken en fouten maken. \n<br>Hier vind je de te ondernemen stappen die nodig zijn om in de crypto wereld actief te kunnen zijn, of dit nu gaat om handelen, speculeren, investeren of gewoon kunnen betalen met crypto geld. \n<br>\n<br><i>Er wordt op deze site geen inhoudelijke informatie verstrekt en geen advies gegeven (wij zijn geen financieel adviseurs) we verwijzen per stap naar bronnen die je snel op weg kunnen helpen. \n<br></i>\n<br>Met onderstaande * stappen ben je in korte tijd up en running en weet je waar je terecht kunt voor het leerproces wat nodig is om succesvol in de Crypto space actief te kunnen zijn. \n<br></b><br><b>Alle links zijn met toestemming geplaats.</b></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"page20.html\" data-app-placeholder=\"Type Text\">Voor dat je<br>begint<br></a> <a class=\"btn btn-md btn-secondary\" href=\"page20.html\" data-app-placeholder=\"Type Text\">Stap 1<br></a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "rb7cNOnkaH",
           "_anchor": "header2-0",
           "_PHPplaceholders": [],
@@ -541,7 +541,7 @@
       "settings": {
         "meta_descr": "video cryptocurrency bitcoin, xrp, ripple, dogecoin,litecoin, etherium Technische Analise",
         "title": "Dé Technich Analiste",
-        "order": 16
+        "order": 15
       },
       "components": [
         {
@@ -1894,7 +1894,7 @@
       "settings": {
         "meta_descr": "Registreren bij exchanges als Kraken, Binance, Poloniex",
         "title": "Wachtwoord managers",
-        "order": 10
+        "order": 9
       },
       "components": [
         {
@@ -2444,8 +2444,8 @@
     "page4.html": {
       "settings": {
         "meta_descr": "Website Creator Description",
-        "title": "4. Het bemachtigen van Crypto coins ",
-        "order": 6
+        "title": "3. Het bemachtigen van Crypto coins ",
+        "order": 5
       },
       "components": [
         {
@@ -2927,8 +2927,8 @@
     "page5.html": {
       "settings": {
         "meta_descr": "Web Site Builder Description",
-        "title": "3. Orientatie",
-        "order": 5
+        "title": "2. Orientatie",
+        "order": 4
       },
       "components": [
         {
@@ -3468,7 +3468,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "Dé Goeroe",
-        "order": 15
+        "order": 14
       },
       "components": [
         {
@@ -4384,7 +4384,7 @@
       "settings": {
         "meta_descr": "Crypto currency terminologie voor beginners",
         "title": "Crypto Terminologie",
-        "order": 20
+        "order": 19
       },
       "components": [
         {
@@ -4848,7 +4848,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "1. Bereid je voor",
-        "order": 4
+        "order": 3
       },
       "components": [
         {
@@ -5511,7 +5511,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Boekenlijst",
-        "order": 21
+        "order": 20
       },
       "components": [
         {
@@ -6242,7 +6242,7 @@
       "settings": {
         "meta_descr": "Registreren bij exchanges als Kraken, Binance, Poloniex",
         "title": "Two Factor authenticatie",
-        "order": 9
+        "order": 8
       },
       "components": [
         {
@@ -6758,7 +6758,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Internet Security",
-        "order": 8
+        "order": 7
       },
       "components": [
         {
@@ -7272,7 +7272,7 @@
       "settings": {
         "meta_descr": "Video filmpjes uitleg",
         "title": "Video",
-        "order": 13
+        "order": 12
       },
       "components": [
         {
@@ -7911,7 +7911,7 @@
       "settings": {
         "meta_descr": "Een greep uit de vele nationale en internationale Exhanges /wisselkantoren",
         "title": "Exchanges",
-        "order": 12,
+        "order": 11,
         "html_before": ""
       },
       "components": [
@@ -8220,7 +8220,7 @@
       "settings": {
         "meta_descr": "Web Generator Description",
         "title": "Coins",
-        "order": 11
+        "order": 10
       },
       "components": [
         {
@@ -8760,7 +8760,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Podcasts",
-        "order": 19
+        "order": 18
       },
       "components": [
         {
@@ -9466,7 +9466,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "De Meester",
-        "order": 17
+        "order": 16
       },
       "components": [
         {
@@ -9909,8 +9909,8 @@
     "page17.html": {
       "settings": {
         "meta_descr": "Web Generator Description",
-        "title": "5. Bouw je kennis uit",
-        "order": 7
+        "title": "4. Bouw je kennis uit",
+        "order": 6
       },
       "components": [
         {
@@ -10409,7 +10409,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 2
+        "order": 1
       },
       "components": [
         {
@@ -10425,7 +10425,7 @@
               "background-color": "@bg-value"
             },
             ".mbr-text, .mbr-section-btn": {
-              "text-align": "left",
+              "text-align": "center",
               "color": "#073b4c"
             },
             "SPAN": {
@@ -10439,7 +10439,7 @@
             }
           },
           "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Toon pijl\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1080.jpg\" selected>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#f4c269\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Your first year in crypto space.</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Interessante website voor Crypto Starters\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>Deze website geeft een leidraad voor de beginnende Crypto bezitter, handelaar, hodler \n<br>Mijn eerste jaar was vooral zoeken, de weg kwijt raken en fouten maken. \n<br>Hier vind je de te ondernemen stappen die nodig zijn om in de crypto wereld actief te kunnen zijn, of dit nu gaat om handelen, speculeren, investeren of gewoon kunnen betalen met crypto geld. \n<br>\n<br><i>Er wordt op deze site geen inhoudelijke informatie verstrekt en geen advies gegeven (wij zijn geen financieel adviseurs) we verwijzen per stap naar bronnen die je snel op weg kunnen helpen. \n<br></i>\n<br>Met onderstaande * stappen ben je in korte tijd up en running en weet je waar je terecht kunt voor het leerproces wat nodig is om succesvol in de Crypto space actief te kunnen zijn. \n<br>\n<br>Alle links zijn met toestemming geplaats.</b></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LIVE SITE</a> <a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LIVE SITE</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Toon pijl\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1080.jpg\" selected parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#d4a655\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Your first year in crypto space.</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Interessante website voor Crypto Starters\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><br><br><br><b>Natuurlijk zijn er op internet ontzettend veel bronnen waar je informatie vandaan kunt halen. Om het je eenvoudiger te maken zijn er op deze site een verzameling van goede bronnen samengebracht die jou snel op weg kunnen helpen. \n<br></b>\n<br><b>Na het doorlopen van de volgende stappen ben je een heel eind op weg in de crypto space!&nbsp;</b><br><br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"page8.html\" data-app-placeholder=\"Type Text\">Bereid je voor</a> <a class=\"btn btn-md btn-secondary\" href=\"page5.html\" data-app-placeholder=\"Type Text\">Oriëntatie</a> <a class=\"btn btn-md btn-secondary\" href=\"page4.html\" data-app-placeholder=\"Type Text\">Coins Kopen</a> <a class=\"btn btn-md btn-secondary\" href=\"page17.html\" data-app-placeholder=\"Type Text\">Bouw je kennis uit</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "rhkNcvtJmt",
@@ -10948,7 +10948,7 @@
             }
           },
           "_name": "footer7",
-          "_customHTML": "<section group=\"Footers\" global once mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Menu items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Social items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Nadruk effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white mbr-bold\" href=\"#\" target=\"_blank\">Over ons</a>\n                    </li>\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white mbr-bold\" href=\"#\" target=\"_blank\">Diensten</a>\n                    </li>\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white mbr-bold\" href=\"#\" target=\"_blank\">Hou contact</a>\n                    </li>\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white mbr-bold\" href=\"#\" target=\"_blank\">Loopbanen</a>\n                    </li>\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white mbr-bold\" href=\"#\" target=\"_blank\">Werk</a>\n                    </li>\n                </ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\">\n                    © Copyright 2019 Bomart - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Footers\" global once mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Menu items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Social items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Nadruk effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white mbr-bold\" href=\"#\" target=\"_blank\">Over ons</a>\n                    </li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                    \n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\">\n                    © Copyright 2019 Bomart - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rhkNcETig3",
           "_anchor": "footer7-5m",
           "_protectedParams": [],
@@ -10965,7 +10965,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -11045,7 +11045,7 @@
             }
           },
           "_name": "info1",
-          "_customHTML": "<section group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1158.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container text-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-8 section\">\n                <div class=\"section-title\">\n                    <h3 mbr-text class=\"mbr-fonts-style mbr-section-title\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\"><b>Zorg ervoor dat je een goede virusscanner op je pc/laptop hebt.\n<br></b>Je bent zometeen je eigen bank en daarmee ben jij en alleen jij verantwoordelijk voor het beheer van jou crypto kapitaal. <br><br><br><b>Regel een wachtwoord manager</b> voor op je PC of smartphone om al je wachtwoorden, public keys, private keys / seeds en andere zaken veilig in op te slaan. &nbsp;<br><br><br><b>Zorg ervoor dat je daar waar mogelijk two factor authenticatie</b> gebruikt voor de toegang van al je accounts die je zult gaan gebruiken.</h3>\n                </div>\n            </div>\n            <div class=\"col-md-4 mbr-section-btn\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page11.html\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\">\n                    <span class=\"mbri-preview mbr-iconfont mbr-iconfont-btn\"></span><br>Internet Security<br><br></a> <a href=\"page3.html\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\">\n                    <span class=\"mbri-preview mbr-iconfont mbr-iconfont-btn\"></span><br>Password Managers&nbsp;<br><br></a> <a href=\"2fa.html\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\">\n                    <span class=\"mbri-preview mbr-iconfont mbr-iconfont-btn\"></span>Two Factor Authenticators</a></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1158.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container text-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-8 section\">\n                <div class=\"section-title\">\n                    <h3 mbr-text class=\"mbr-fonts-style mbr-section-title\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\"><b>Zorg ervoor dat je een goede virusscanner op je pc/laptop hebt.\n<br></b>Je bent zometeen je eigen bank en daarmee ben jij en alleen jij verantwoordelijk voor het beheer van jou crypto kapitaal. <br><br><br><b>Regel een wachtwoord manager</b> voor op je PC of smartphone om al je wachtwoorden, public keys, private keys / seeds en andere zaken veilig in op te slaan. &nbsp;<br><br><br><b>Zorg ervoor dat je daar waar mogelijk two factor authenticatie</b> gebruikt voor de toegang van al je accounts die je zult gaan gebruiken.</h3>\n                </div>\n            </div>\n            <div class=\"col-md-4 mbr-section-btn\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"page11.html\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\">\n                    <span class=\"mbri-preview mbr-iconfont mbr-iconfont-btn\"></span><br>Internet Security<br><br></a> <a href=\"page3.html\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\">\n                    <span class=\"mbri-preview mbr-iconfont mbr-iconfont-btn\"></span><br>Password Managers&nbsp;<br><br></a> <a href=\"2fa.html\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\">\n                    <span class=\"mbri-preview mbr-iconfont mbr-iconfont-btn\"></span>Two Factor Authenticators</a> <a href=\"page19.html\" class=\"btn btn-warning\" data-app-placeholder=\"Type Text\">Terug</a></div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "portfoliom4",
           "_cid": "rhkTAbvdCj",
@@ -11606,7 +11606,7 @@
       "settings": {
         "meta_descr": "video cryptocurrency bitcoin, xrp, ripple, dogecoin,litecoin, etherium Technische Analise",
         "title": "De Position Trader",
-        "order": 18
+        "order": 17
       },
       "components": [
         {
@@ -12352,7 +12352,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Magic Money",
-        "order": 14
+        "order": 13
       },
       "components": [
         {
