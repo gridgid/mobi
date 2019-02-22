@@ -3894,97 +3894,28 @@ body {
     width: 100% !important;
   }
 }
-.cid-ri6fWelTms {
-  overflow: hidden !important;
-  background-image: url("../../../assets/images/library-3-960x462.jpg");
+.cid-riL4qajnxS {
+  padding-top: 135px;
+  padding-bottom: 135px;
 }
-.cid-ri6fWelTms .animated-element {
-  color: #efefef;
-}
-.cid-ri6fWelTms .img-block {
-  -webkit-align-self: center;
-  align-self: center;
-}
-.cid-ri6fWelTms .mbr-section-subtitle {
-  color: #9c88bc;
-}
-@media (min-width: 992px) {
-  .cid-ri6fWelTms .img-block {
-    padding-right: 2rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-ri6fWelTms .mbr-figure {
-    margin-top: 1rem;
-  }
-}
-@media (max-width: 768px) {
-  .cid-ri6fWelTms .img-block {
-    padding-bottom: 2rem;
-  }
-}
-.cid-ri6fWelTms .mbr-section-title {
-  color: #9f4120;
-}
-.cid-rhUktFgm56 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #000000;
-}
-@media (min-width: 992px) {
-  .cid-rhUktFgm56 .mbr-figure {
-    padding-right: 4rem;
-  }
-}
-@media (max-width: 991px) {
-  .cid-rhUktFgm56 .mbr-figure {
-    padding-bottom: 1rem;
-  }
-}
-.cid-rhUktFgm56 .mbr-text {
+.cid-riL4qajnxS .mbr-text {
   color: #767676;
+  text-align: center;
 }
-.cid-rhUkuM1avS {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #000000;
+.cid-riL4qajnxS h4 {
+  text-align: center;
 }
-@media (min-width: 992px) {
-  .cid-rhUkuM1avS .mbr-figure {
-    padding-left: 4rem;
-  }
+.cid-riL4qajnxS p {
+  text-align: center;
 }
-@media (max-width: 992px) {
-  .cid-rhUkuM1avS .mbr-figure {
-    padding-top: 1rem;
-  }
-}
-.cid-rhUkuM1avS .mbr-text {
-  color: #767676;
-  text-align: left;
+.cid-riL4qajnxS .card-img span {
+  font-size: 96px;
+  color: #149dcc;
 }
 .cid-rhkAVkVJyU {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #2e2e2e;
-}
-.cid-ri6fI01RXN {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #000000;
-}
-@media (min-width: 992px) {
-  .cid-ri6fI01RXN .mbr-figure {
-    padding-left: 2rem;
-  }
-}
-@media (max-width: 992px) {
-  .cid-ri6fI01RXN .mbr-figure {
-    padding-top: 1rem;
-  }
-}
-.cid-ri6fI01RXN .mbr-text {
-  color: #787324;
 }
 .cid-rbMm12QHtp .navbar {
   padding: .5rem 0;
