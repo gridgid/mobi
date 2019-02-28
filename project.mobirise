@@ -15072,106 +15072,6 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-section-subtitle": {
-              "color": "#767676",
-              "font-weight": "300"
-            },
-            ".mbr-content-text": {
-              "color": "#767676",
-              "margin-bottom": "0"
-            },
-            ".card": {
-              "word-wrap": "break-word",
-              "flex-shrink": "0",
-              "-webkit-flex-shrink": "0"
-            },
-            ".mbr-iconfont when (@showIcons)": {
-              "font-size": "80px",
-              "color": "#149dcc"
-            },
-            ".cards-block when (@showBorders)": {
-              "@media (min-width: 992px)": {
-                "border-top": "2px solid @bordersColor"
-              },
-              ".card": {
-                "border-bottom": "2px solid @bordersColor",
-                "border-radius": "0"
-              }
-            },
-            ".cards-container": {
-              "display": "flex",
-              "-webkit-flex-direction": "row",
-              "flex-direction": "row",
-              "-webkit-flex-wrap": "wrap",
-              "flex-wrap": "wrap",
-              "-webkit-justify-content": "center",
-              "justify-content": "center",
-              "word-break": "break-word"
-            },
-            ".media-block when (@showMedia)": {
-              "flex-shrink": "0",
-              "-webkit-flex-shrink": "0",
-              "@media (min-width: 992px)": {
-                "& when (@reverseContent)": {
-                  "padding-left": "2rem"
-                },
-                "& when not (@reverseContent)": {
-                  "padding-right": "2rem"
-                }
-              }
-            },
-            ".cards-block": {
-              "flex-basis": "100%",
-              "-webkit-flex-basis": "100%"
-            },
-            "@media (max-width: 991px)": {
-              ".media-block": {
-                "flex-basis": "100%",
-                "-webkit-flex-basis": "100%",
-                "padding-left": "0",
-                "padding-bottom": "2rem"
-              }
-            },
-            "@media (min-width: 768px)": {
-              ".count": {
-                "width": "100px"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".panel-item": {
-                "-webkit-flex-wrap": "wrap",
-                "flex-wrap": "wrap"
-              },
-              ".card-img when (@showTitles), (@showText)": {
-                "padding-bottom": "1rem",
-                "padding-right": "0 !important",
-                "margin": "auto"
-              }
-            },
-            ".media-container-row when (@reverseContent) and (@showMedia)": {
-              "-webkit-flex-direction": "row-reverse",
-              "flex-direction": "row-reverse"
-            }
-          },
-          "_name": "counters3",
-          "_customHTML": "<section class=\"counters3 counters\" group=\"Counters\" plugins=\"ViewportChecker\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon pictogram\" name=\"showIcons\" checked>\n        <input type=\"checkbox\" title=\"Toon titel Block\" name=\"showTitles\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon pictogram\" name=\"showIcons\">\n        <input type=\"checkbox\" title=\"Toon media\" name=\"showMedia\" checked>\n        <input type=\"range\" title=\"Media formaat\" inline name=\"mediaSize\" min=\"20\" max=\"60\" value=\"49\" condition=\"showMedia\">\n        <input type=\"checkbox\" title=\"Media op links/rechts\" name=\"reverseContent\" condition=\"showMedia\" checked>\n        <select title=\"Aantal kaarten\" name=\"cardsAmount\">\n           <option value=\"1\">1</option>\n           <option value=\"2\">2</option>\n           <option value=\"3\">3</option>\n           <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Borders\" name=\"showBorders\" checked>\n        <input type=\"color\" title=\"Border Color\" name=\"bordersColor\" value=\"#efefef\" condition=\"showBorders\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n           <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background2.jpg\">\n           <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n           <input type=\"video\" title=\"Achtergrondvideo\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#cccccc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container pt-4 mt-2\">\n        <h2 class=\"mbr-section-title pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                    Crypto Sites</h2>\n        <h3 class=\"mbr-section-subtitle pb-5 align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"></h3>\n        <div mbr-class=\"{'media-container-row': showMedia,\n                         'row justify-content-center': !showTitle && !showSubtitle && !showMedia}\">\n            <div class=\"media-block m-auto\" mbr-style=\"{'width': mediaSize + '%'}\" mbr-if=\"showMedia\">\n                <div class=\"mbr-figure\">\n                    <img src=\"../_images/background6.jpg\">\n                </div>\n            </div>\n            <div class=\"cards-block\">\n                <div class=\"cards-container\">\n                    <div class=\"card px-3 align-left col-12\">\n                        <div class=\"panel-item p-4 d-flex align-items-center\">\n                            <div class=\"card-img pr-3 d-flex align-items-center align-left\">\n                                <span mbr-icon mbr-if=\"showIcons\" class=\"mbri-mobirise mbr-iconfont pr-2\"></span>\n                                <h3 class=\"count py-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".count\">\n                                    1\n                                </h3>\n                            </div>\n                            <div class=\"card-text\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\"><a href=\"https://www.coinmarketcap.com\" target=\"_blank\">Coinmarketcap.com \n</a><div><br></div></h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">De meest populaire cryptocurrencies in één overzicht. Er zijn meer dan 2000 verschillende cryptocurrencies. Wanneer je de koers van cryptocurrencies in de gaten wilt houden is Coinmarketcap.com een goede en interessante bron om te raadplegen!</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card px-3 align-left col-12\" mbr-if=\"cardsAmount>1\">\n                        <div class=\"panel-item p-4 d-flex align-items-center\">\n                            <div class=\"card-img pr-3 d-flex align-items-center align-left\">\n                                <span mbr-icon mbr-if=\"showIcons\" class=\"mbri-extension mbr-iconfont pr-2\"></span>\n                                <h3 class=\"count py-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".count\">\n                                    2\n                                </h3>\n                            </div>\n                            <div class=\"card-text\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\"><div></div></h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">Crypto Exchanges &nbsp;<br><br>Waar kun je Bitcoin en altcoins kopen? \n<br>\n<br>Coinbase: ’s werelds belangrijkste exchange om Bitcoin, Litecoin en Ethereum te kopen. \n<br>Litebite: koop Bitcoin en tal van altcoins met iDeal op deze Nederlandse site. \n<br>Binance: de beste exchange om altcoins te kopen. \n<br>Bittrex: de exchange met de meeste altcoins. \n<br>Cryptopia: altcoin exchange waar je vooral low cap altcoins kunt vinden. Oftewel, de toppers van de toekomst. \n<br>Coin Exchange: ook een exchange waar je low cap altcoins kunt vinden. \n<br>Kucoin: altcoin exchange uit Hong Kong waar je veel Aziatische munten kunt vinden. \n<br>Bitmex: wanneer je wilt gaan marging traden is Bitmex een uitstekende exchange. Ga alleen marging trading als je een ervaren trader bent. \n<br>Crypto Radar: vind de goedkoopste exchanges rates hier (dit kan weleens verschillen, dus..)</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card px-3 align-left col-12\" mbr-if=\"cardsAmount>2\">\n                        <div class=\"panel-item p-4 d-flex align-items-center\">\n                            <div class=\"card-img pr-3 d-flex align-items-center align-left\">\n                                <span mbr-icon mbr-if=\"showIcons\" class=\"mbri-responsive mbr-iconfont pr-2\"></span>\n                                <h3 class=\"count py-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".count\">\n                                    3\n                                </h3>\n                            </div>\n                            <div class=\"card-text\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\">Research</h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">Voordat je gaat traden zul je altijd goed onderzoek moeten doen naar de achtergronden van een munt. Hieronder vind je diverse goede bronnen: \n<br>\n<br>Coinmarketcap: de basisgegevens over een munt vind je hier, zoals koersverloop, coin supply en de market cap. \n<br>Coin Codex: vergelijkbaar met Coinmarketcap, maar heeft een fijnere interface. \n<br>Github: bekijk het werk van de developers van een cryptomunt. Bij geen of weinig Github commits: blijf dan weg van deze munt. \n<br>Bitcointalk: belangrijkste crypto forum waar o.a. nieuwe altcoins door de makers gepresenteerd worden. \n<br>Twitter: hier wordt veel over crypto gepraat. Kijk uit voor shillers; traders die een munt promoten om ze zelf te kunnen verkopen. \n<br>Reddit: elke munt heeft hier een eigen messageboard waar nieuws geplaatst en besproken wordt.&nbsp;</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card px-3 align-left col-12\" mbr-if=\"cardsAmount>3\">\n                        <div class=\"panel-item p-4 d-flex align-items-center\">\n                            <div class=\"card-img pr-3 d-flex align-items-center align-left\">\n                                <span mbr-icon mbr-if=\"showIcons\" class=\"mbri-globe-2 mbr-iconfont pr-2\"></span>\n                                <h3 class=\"count py-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".count\">\n                                    4\n                                </h3>\n                            </div>\n                            <div class=\"card-texts\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\">Achtergronden \n</h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\"><br>Krijg een beter begrip van wat crypto is door hier (lange) artikelen over te lezen. Weet waar je in investeert!\n<br>\n<br>Medium: zeer lezenswaardige posts vind je op dit publishing platform over tal van onderwerpen, waaronder dus ook crypto.\n<br>Hackernoon: de artikelen hier gaan vaak dieper in op de code en filosofie aspecten van crypto.\n<br>Steemit: de kwalitiet is wisselvallig, maar wel het volgen waard mede omdat Steemit zelf een cryptoproject is. Als schrijver ontvang je Steem munten wanneer mensen je artikel liken. Wat ons betreft is dit model de toekomst voor content generators (muziek, film, etc.)\n<br>Hacker News: een van de beste forums voor developers. Hier komen regelmatig goede crypto topics voorbij. Interessant voor als je geïnteresseerd bent in de techniek achter crypto.\n<br><b><br></b><br><b>Portfolio\n</b><br>Hoe hou je de waarde van je investeringen in de gaten? De volgende apps voor:\n<br>\n<br>Portfolio Apps:&nbsp;<br>Blockfolio\n<br>Coincap.io\n<br>Coinstats\n<br><br><i>Portfolio websites:\n</i><br>\n<br><b>Tab Trader:</b> om al je trades automatisch bij te houden. Alleen nuttig als je heel veel trade.\n<br>Cryptomarkt\n<br>Globale informatie over de cryptomarkt.\n<br>\n<br><b>Crypto Maps:</b> de gehele cryptomarkt in kaart gebracht.\n<br>Crypto Stats: voor de data crunchers onder ons\n<br>Coinmarket Cal: kalender met events, announcements, etc. van altcoins.<br><br>Bron:&nbsp;https://cryptohelden.nl/de-beste-sites-voor-altcoin-trading/</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rje1H14hoG",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "counters3-8w"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
             ".media-container-column": {
               "align-items": "center",
               "-webkit-align-items": "center"
@@ -15338,6 +15238,106 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#767676",
+              "font-weight": "300"
+            },
+            ".mbr-content-text": {
+              "color": "#767676",
+              "margin-bottom": "0"
+            },
+            ".card": {
+              "word-wrap": "break-word",
+              "flex-shrink": "0",
+              "-webkit-flex-shrink": "0"
+            },
+            ".mbr-iconfont when (@showIcons)": {
+              "font-size": "80px",
+              "color": "#149dcc"
+            },
+            ".cards-block when (@showBorders)": {
+              "@media (min-width: 992px)": {
+                "border-top": "2px solid @bordersColor"
+              },
+              ".card": {
+                "border-bottom": "2px solid @bordersColor",
+                "border-radius": "0"
+              }
+            },
+            ".cards-container": {
+              "display": "flex",
+              "-webkit-flex-direction": "row",
+              "flex-direction": "row",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "-webkit-justify-content": "center",
+              "justify-content": "center",
+              "word-break": "break-word"
+            },
+            ".media-block when (@showMedia)": {
+              "flex-shrink": "0",
+              "-webkit-flex-shrink": "0",
+              "@media (min-width: 992px)": {
+                "& when (@reverseContent)": {
+                  "padding-left": "2rem"
+                },
+                "& when not (@reverseContent)": {
+                  "padding-right": "2rem"
+                }
+              }
+            },
+            ".cards-block": {
+              "flex-basis": "100%",
+              "-webkit-flex-basis": "100%"
+            },
+            "@media (max-width: 991px)": {
+              ".media-block": {
+                "flex-basis": "100%",
+                "-webkit-flex-basis": "100%",
+                "padding-left": "0",
+                "padding-bottom": "2rem"
+              }
+            },
+            "@media (min-width: 768px)": {
+              ".count": {
+                "width": "100px"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".panel-item": {
+                "-webkit-flex-wrap": "wrap",
+                "flex-wrap": "wrap"
+              },
+              ".card-img when (@showTitles), (@showText)": {
+                "padding-bottom": "1rem",
+                "padding-right": "0 !important",
+                "margin": "auto"
+              }
+            },
+            ".media-container-row when (@reverseContent) and (@showMedia)": {
+              "-webkit-flex-direction": "row-reverse",
+              "flex-direction": "row-reverse"
+            }
+          },
+          "_name": "counters3",
+          "_customHTML": "<section class=\"counters3 counters\" group=\"Counters\" plugins=\"ViewportChecker\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Toon pictogram\" name=\"showIcons\" checked>\n        <input type=\"checkbox\" title=\"Toon titel Block\" name=\"showTitles\" checked>\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon pictogram\" name=\"showIcons\">\n        <input type=\"checkbox\" title=\"Toon media\" name=\"showMedia\" checked>\n        <input type=\"range\" title=\"Media formaat\" inline name=\"mediaSize\" min=\"20\" max=\"60\" value=\"49\" condition=\"showMedia\">\n        <input type=\"checkbox\" title=\"Media op links/rechts\" name=\"reverseContent\" condition=\"showMedia\" checked>\n        <select title=\"Aantal kaarten\" name=\"cardsAmount\">\n           <option value=\"1\">1</option>\n           <option value=\"2\">2</option>\n           <option value=\"3\">3</option>\n           <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Borders\" name=\"showBorders\" checked>\n        <input type=\"color\" title=\"Border Color\" name=\"bordersColor\" value=\"#efefef\" condition=\"showBorders\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n           <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background2.jpg\">\n           <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n           <input type=\"video\" title=\"Achtergrondvideo\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#cccccc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container pt-4 mt-2\">\n        <h2 class=\"mbr-section-title pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                    Crypto Sites</h2>\n        <h3 class=\"mbr-section-subtitle pb-5 align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"></h3>\n        <div mbr-class=\"{'media-container-row': showMedia,\n                         'row justify-content-center': !showTitle && !showSubtitle && !showMedia}\">\n            <div class=\"media-block m-auto\" mbr-style=\"{'width': mediaSize + '%'}\" mbr-if=\"showMedia\">\n                <div class=\"mbr-figure\">\n                    <img src=\"../_images/background6.jpg\">\n                </div>\n            </div>\n            <div class=\"cards-block\">\n                <div class=\"cards-container\">\n                    <div class=\"card px-3 align-left col-12\">\n                        <div class=\"panel-item p-4 d-flex align-items-center\">\n                            <div class=\"card-img pr-3 d-flex align-items-center align-left\">\n                                <span mbr-icon mbr-if=\"showIcons\" class=\"mbri-mobirise mbr-iconfont pr-2\"></span>\n                                <h3 class=\"count py-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".count\">\n                                    1\n                                </h3>\n                            </div>\n                            <div class=\"card-text\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\"><a href=\"https://www.coinmarketcap.com\" target=\"_blank\">Coinmarketcap.com \n</a><div><br></div></h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">De meest populaire cryptocurrencies in één overzicht. Er zijn meer dan 2000 verschillende cryptocurrencies. Wanneer je de koers van cryptocurrencies in de gaten wilt houden is Coinmarketcap.com een goede en interessante bron om te raadplegen!</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card px-3 align-left col-12\" mbr-if=\"cardsAmount>1\">\n                        <div class=\"panel-item p-4 d-flex align-items-center\">\n                            <div class=\"card-img pr-3 d-flex align-items-center align-left\">\n                                <span mbr-icon mbr-if=\"showIcons\" class=\"mbri-extension mbr-iconfont pr-2\"></span>\n                                <h3 class=\"count py-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".count\">\n                                    2\n                                </h3>\n                            </div>\n                            <div class=\"card-text\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\"><div></div></h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">Crypto Exchanges &nbsp;<br><br>Waar kun je Bitcoin en altcoins kopen? \n<br>\n<br>Coinbase: ’s werelds belangrijkste exchange om Bitcoin, Litecoin en Ethereum te kopen. \n<br>Litebite: koop Bitcoin en tal van altcoins met iDeal op deze Nederlandse site. \n<br>Binance: de beste exchange om altcoins te kopen. \n<br>Bittrex: de exchange met de meeste altcoins. \n<br>Cryptopia: altcoin exchange waar je vooral low cap altcoins kunt vinden. Oftewel, de toppers van de toekomst. \n<br>Coin Exchange: ook een exchange waar je low cap altcoins kunt vinden. \n<br>Kucoin: altcoin exchange uit Hong Kong waar je veel Aziatische munten kunt vinden. \n<br>Bitmex: wanneer je wilt gaan marging traden is Bitmex een uitstekende exchange. Ga alleen marging trading als je een ervaren trader bent. \n<br>Crypto Radar: vind de goedkoopste exchanges rates hier (dit kan weleens verschillen, dus..)</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card px-3 align-left col-12\" mbr-if=\"cardsAmount>2\">\n                        <div class=\"panel-item p-4 d-flex align-items-center\">\n                            <div class=\"card-img pr-3 d-flex align-items-center align-left\">\n                                <span mbr-icon mbr-if=\"showIcons\" class=\"mbri-responsive mbr-iconfont pr-2\"></span>\n                                <h3 class=\"count py-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".count\">\n                                    3\n                                </h3>\n                            </div>\n                            <div class=\"card-text\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\">Research</h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">Voordat je gaat traden zul je altijd goed onderzoek moeten doen naar de achtergronden van een munt. Hieronder vind je diverse goede bronnen: \n<br>\n<br>Coinmarketcap: de basisgegevens over een munt vind je hier, zoals koersverloop, coin supply en de market cap. \n<br>Coin Codex: vergelijkbaar met Coinmarketcap, maar heeft een fijnere interface. \n<br>Github: bekijk het werk van de developers van een cryptomunt. Bij geen of weinig Github commits: blijf dan weg van deze munt. \n<br>Bitcointalk: belangrijkste crypto forum waar o.a. nieuwe altcoins door de makers gepresenteerd worden. \n<br>Twitter: hier wordt veel over crypto gepraat. Kijk uit voor shillers; traders die een munt promoten om ze zelf te kunnen verkopen. \n<br>Reddit: elke munt heeft hier een eigen messageboard waar nieuws geplaatst en besproken wordt.&nbsp;</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card px-3 align-left col-12\" mbr-if=\"cardsAmount>3\">\n                        <div class=\"panel-item p-4 d-flex align-items-center\">\n                            <div class=\"card-img pr-3 d-flex align-items-center align-left\">\n                                <span mbr-icon mbr-if=\"showIcons\" class=\"mbri-globe-2 mbr-iconfont pr-2\"></span>\n                                <h3 class=\"count py-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".count\">\n                                    4\n                                </h3>\n                            </div>\n                            <div class=\"card-texts\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\">Achtergronden \n</h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\"><br>Krijg een beter begrip van wat crypto is door hier (lange) artikelen over te lezen. Weet waar je in investeert!\n<br>\n<br>Medium: zeer lezenswaardige posts vind je op dit publishing platform over tal van onderwerpen, waaronder dus ook crypto.\n<br>Hackernoon: de artikelen hier gaan vaak dieper in op de code en filosofie aspecten van crypto.\n<br>Steemit: de kwalitiet is wisselvallig, maar wel het volgen waard mede omdat Steemit zelf een cryptoproject is. Als schrijver ontvang je Steem munten wanneer mensen je artikel liken. Wat ons betreft is dit model de toekomst voor content generators (muziek, film, etc.)\n<br>Hacker News: een van de beste forums voor developers. Hier komen regelmatig goede crypto topics voorbij. Interessant voor als je geïnteresseerd bent in de techniek achter crypto.\n<br><b><br></b><br><b>Portfolio\n</b><br>Hoe hou je de waarde van je investeringen in de gaten? De volgende apps voor:\n<br>\n<br>Portfolio Apps:&nbsp;<br>Blockfolio\n<br>Coincap.io\n<br>Coinstats\n<br><br><i>Portfolio websites:\n</i><br>\n<br><b>Tab Trader:</b> om al je trades automatisch bij te houden. Alleen nuttig als je heel veel trade.\n<br>Cryptomarkt\n<br>Globale informatie over de cryptomarkt.\n<br>\n<br><b>Crypto Maps:</b> de gehele cryptomarkt in kaart gebracht.\n<br>Crypto Stats: voor de data crunchers onder ons\n<br>Coinmarket Cal: kalender met events, announcements, etc. van altcoins.<br><br>Bron:&nbsp;https://cryptohelden.nl/de-beste-sites-voor-altcoin-trading/</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rje1H14hoG",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "counters3-8w"
         }
       ]
     }
