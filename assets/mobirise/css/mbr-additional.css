@@ -168,8 +168,8 @@ body {
 }
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #291b01 !important;
-  border-color: #291b01 !important;
+  background-color: #f00e0e !important;
+  border-color: #f00e0e !important;
   color: #ffffff !important;
 }
 .btn-secondary:hover,
@@ -177,14 +177,14 @@ body {
 .btn-secondary.focus,
 .btn-secondary.active {
   color: #ffffff !important;
-  background-color: #000000 !important;
-  border-color: #000000 !important;
+  background-color: #a80a0a !important;
+  border-color: #a80a0a !important;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff !important;
-  background-color: #000000 !important;
-  border-color: #000000 !important;
+  background-color: #a80a0a !important;
+  border-color: #a80a0a !important;
 }
 .btn-info,
 .btn-info:active {
@@ -332,22 +332,22 @@ body {
 .btn-secondary-outline,
 .btn-secondary-outline:active {
   background: none;
-  border-color: #000000;
-  color: #000000;
+  border-color: #900808;
+  color: #900808;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
 .btn-secondary-outline.focus,
 .btn-secondary-outline.active {
   color: #ffffff;
-  background-color: #291b01;
-  border-color: #291b01;
+  background-color: #f00e0e;
+  border-color: #f00e0e;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #ffffff !important;
-  background-color: #291b01 !important;
-  border-color: #291b01 !important;
+  background-color: #f00e0e !important;
+  border-color: #f00e0e !important;
 }
 .btn-info-outline,
 .btn-info-outline:active {
@@ -467,7 +467,7 @@ body {
   color: #ce758b !important;
 }
 .text-secondary {
-  color: #291b01 !important;
+  color: #f00e0e !important;
 }
 .text-success {
   color: #283902 !important;
@@ -493,7 +493,7 @@ a.text-primary:focus {
 }
 a.text-secondary:hover,
 a.text-secondary:focus {
-  color: #000000 !important;
+  color: #900808 !important;
 }
 a.text-success:hover,
 a.text-success:focus {
@@ -1449,7 +1449,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjHAfgU7w4 .nav-item.open .nav-link::before {
@@ -1920,7 +1920,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjTmg0wbuZ .nav-item.open .nav-link::before {
@@ -2349,7 +2349,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjTlqCERkc .nav-item.open .nav-link::before {
@@ -2728,7 +2728,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjTl6lp7Ve .nav-item.open .nav-link::before {
@@ -3133,7 +3133,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjHExe6vZm .nav-item.open .nav-link::before {
@@ -3734,7 +3734,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjTm5DGCiu .nav-item.open .nav-link::before {
@@ -4636,7 +4636,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjThgQqZr0 .nav-item.open .nav-link::before {
@@ -5153,7 +5153,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjTmGYF019 .nav-item.open .nav-link::before {
@@ -5614,7 +5614,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjTlmbyM5i .nav-item.open .nav-link::before {
@@ -6053,7 +6053,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjTlhBRa9m .nav-item.open .nav-link::before {
@@ -6575,7 +6575,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjTlKSNweu .nav-item.open .nav-link::before {
@@ -7007,7 +7007,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjTlBnUkal .nav-item.open .nav-link::before {
@@ -7429,7 +7429,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjTlvL2Oz4 .nav-item.open .nav-link::before {
@@ -7956,7 +7956,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjTmzHcQ0v .nav-item.open .nav-link::before {
@@ -8439,7 +8439,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjTmnnzzYn .nav-item.open .nav-link::before {
@@ -8823,7 +8823,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjTlcP8DWw .nav-item.open .nav-link::before {
@@ -9271,7 +9271,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjTkhhH2eK .nav-item.open .nav-link::before {
@@ -9658,7 +9658,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjTeBVnwif .nav-item.open .nav-link::before {
@@ -10199,7 +10199,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjTmtmaUsF .nav-item.open .nav-link::before {
@@ -10593,7 +10593,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjTlQKf1CA .nav-item.open .nav-link::before {
@@ -11029,7 +11029,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjHDP2r5lu .nav-item.open .nav-link::before {
@@ -11461,7 +11461,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjTlFZDNTh .nav-item.open .nav-link::before {
@@ -11817,7 +11817,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjTmLN8QWr .nav-item.open .nav-link::before {
@@ -12519,7 +12519,7 @@ body {
     height: 3px;
     bottom: -0.5rem;
     left: 50%;
-    background: linear-gradient(90deg, #ce758b, #291b01);
+    background: linear-gradient(90deg, #ce758b, #f00e0e);
     transition: width 200ms linear, left 200ms linear;
   }
   .cid-rjTmSILbRb .nav-item.open .nav-link::before {
