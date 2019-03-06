@@ -1503,11 +1503,11 @@ body {
 .cid-rjHAfgU7w4 .navbar {
   min-height: 77px;
   transition: all .3s;
-  background: #232323;
+  background: #000000;
 }
 .cid-rjHAfgU7w4 .navbar.opened {
   transition: all .3s;
-  background: #232323 !important;
+  background: #000000 !important;
 }
 .cid-rjHAfgU7w4 .navbar .dropdown-item {
   padding: .235rem 1.5rem;
@@ -1604,7 +1604,7 @@ body {
   }
 }
 .cid-rjHAfgU7w4 .navbar.navbar-short {
-  background: #232323 !important;
+  background: #000000 !important;
   min-height: 60px;
 }
 .cid-rjHAfgU7w4 .navbar.navbar-short .navbar-logo img {
@@ -1645,7 +1645,7 @@ body {
   padding: 0.667em 1.667em;
 }
 .cid-rjHAfgU7w4 .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #232323;
+  background: #000000;
 }
 .cid-rjHAfgU7w4 .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
@@ -6527,6 +6527,9 @@ body {
     padding-bottom: 0!important;
   }
 }
+.cid-rjdFuzRKwX .mbr-section-title {
+  color: #82786e;
+}
 .cid-rhkGgoyhkD {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -10513,9 +10516,9 @@ body {
   background-color: #2e2e2e;
 }
 .cid-rhIgOtjnV4 {
-  padding-top: 120px;
+  padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #232323;
+  background-color: #000000;
 }
 .cid-rhIgOtjnV4 .line {
   background-color: #ffffff;
@@ -10899,6 +10902,29 @@ body {
     width: 175%;
     max-width: calc(100% + 2rem);
     left: -1rem;
+  }
+}
+.cid-rjYGxR0R6h {
+  padding-top: 90px;
+  padding-bottom: 30px;
+  background-color: #000000;
+}
+.cid-rjYGxR0R6h .line {
+  background-color: #ffffff;
+  color: #ffffff;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rjYGxR0R6h .section-text {
+  padding: 2rem 0;
+}
+.cid-rjYGxR0R6h .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rjYGxR0R6h .inner-container {
+    width: 100% !important;
   }
 }
 .cid-riawPabnJk {
@@ -12100,6 +12126,30 @@ body {
     width: 175%;
     max-width: calc(100% + 2rem);
     left: -1rem;
+  }
+}
+.cid-rjYMowY0gs {
+  background: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cid-rjYMowY0gs .image-block {
+  margin: auto;
+}
+.cid-rjYMowY0gs .mbr-figure {
+  margin: 0 auto;
+}
+.cid-rjYMowY0gs figcaption {
+  position: relative;
+}
+.cid-rjYMowY0gs figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rjYMowY0gs .image-block {
+    width: 100% !important;
   }
 }
 .cid-rhkGgoyhkD {
