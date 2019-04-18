@@ -35,10 +35,10 @@ body {
 }
 .display-4 {
   font-family: 'Rubik', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 1.44rem;
+  font-size: 1.28rem;
 }
 .display-5 {
   font-family: 'Rubik', sans-serif;
@@ -71,9 +71,9 @@ body {
     line-height: calc( 1.4 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 0.72rem;
-    font-size: calc( 0.965rem + (0.9 - 0.965) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (0.965rem + (0.9 - 0.965) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.64rem;
+    font-size: calc( 0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 1.2rem;
@@ -4201,14 +4201,14 @@ body {
 .cid-rfmy0HC4KX {
   padding-top: 105px;
   padding-bottom: 15px;
-  background-color: #cebfaf;
+  background-color: #e4d295;
 }
 .cid-rfmy0HC4KX .mbr-text,
 .cid-rfmy0HC4KX blockquote {
   color: #767676;
 }
 .cid-rfmy0HC4KX .mbr-text P {
-  color: #82786e;
+  color: #232323;
 }
 .cid-rfmy0HC4KX .mbr-text B {
   color: #767676;
